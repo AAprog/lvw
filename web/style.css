@@ -9,6 +9,7 @@
 }
 
 .menu {
+    padding-left: 5vw;
     font-size: 0;
     min-width: 500px;
 }
@@ -24,6 +25,7 @@
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    cursor:pointer;
 }
 
 .menu li:hover {
@@ -56,6 +58,13 @@
     overflow: auto;
 }
 
+.col4{
+    display: inline-block;
+    width: 44vw;
+    height: calc(100vh - 47px);
+    overflow: auto;
+}
+
 .ListOfNotes {
     background-color: #F9F9F9;
     padding-top: 20px;
@@ -77,4 +86,49 @@
 
 .ListOfNotes:hover {
     background-color: #6CA4FF;
+}
+
+table {
+    border: 1px solid gray;
+    height: 90%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 7vw;
+    border: 1px solid gray;
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+td.day {
+    background-color: #f0f0f0;
+}
+
+td.na {
+    background-color: #bbb;
+}
+
+td:hover {
+    background-color: #6CA4FF;
+}
+
+.calendar {
+    background-color: #F0F0F0;
+    display: inline-block;
+    width: 49vw;
+    height: calc(100vh - 47px);
+    overflow: auto;
+}
+
+.month {
+    height: 10%;
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 3%;
 }
