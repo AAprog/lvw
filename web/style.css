@@ -1,7 +1,80 @@
 *{
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#header {
+.header {
+    background-color: #4B8BF5;
+}
 
+.menu {
+    font-size: 0;
+    min-width: 500px;
+}
+
+.menu li {
+    display: inline-block; 
+    border: none;
+    width: 100px;
+    text-align: center;
+    color: #F3F0F5;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu li:hover {
+    background-color: #6CA4FF;
+}
+
+.main {
+    
+}
+
+.col1{
+    display: inline-block;
+    width: 5vw;
+    height: calc(100vh - 47px);
+    overflow: auto;
+}
+
+.col2{
+    background-color: #F0F0F0;
+    display: inline-block; 
+    width: 20vw;
+    height: calc(100vh - 47px);
+    overflow: auto;
+}
+
+.col3{
+    display: inline-block;
+    width: 73vw;
+    height: calc(100vh - 47px);
+    overflow: auto;
+}
+
+.ListOfNotes {
+    background-color: #F9F9F9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 1px;
+    color: #666;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.activp {
+    background-color: #fff;
+    /*border:  3px solid gray;*/
+    /*border-radius: 10px 0px 0px 10px;*/
+}
+
+.ListOfNotes:hover {
+    background-color: #6CA4FF;
 }
